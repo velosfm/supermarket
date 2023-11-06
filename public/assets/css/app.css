@@ -1,0 +1,14 @@
+.retailer-wrapper {
+    background: no-repeat padding-box #F8F8F8;
+    width: 5.5rem;
+    height: 5.5rem;
+    padding: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+li.prod-list {
+    list-style: none;
+}

@@ -1,0 +1,21 @@
+.icons-listing {
+    list-style: none;
+}
+
+.content .icons-listing li {
+  display: table;
+  vertical-align: middle;
+}
+
+.content .icons-listing img {
+  float: left;
+}
+
+.partner-text {
+  overflow: hidden;
+  float: none;
+}
+li a {
+      display: flex;
+      align-items: center;
+    }

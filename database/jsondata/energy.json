@@ -1,0 +1,1660 @@
+{
+    "from": "01-07-2023",
+    "to": "31-07-2023",
+    "base_url": "https://warply.s3.eu-west-1.amazonaws.com/applications/ed840ad545884deeb6c6b699176797ed/basket-retailers/",
+    "variance":
+    [],
+    "header": "Οικιακό Τιμολόγιο (Ημερήσιο)",
+    "contract_month_title": "Μηνιαίο Μέσο Τιμολόγιο",
+    "operators":
+    {
+        "ELPEDISON":
+        {
+            "name": "elpedison",
+            "logo": "elpedison.png",
+            "contracts":
+            [
+                {
+                    "name": "ElectricityHome Day",
+                    "base": 0.0,
+                    "unit_value": 199.0,
+                    "contract_value": 61.86,
+                    "perc": -2.93,
+                    "past":
+                    [
+                        [
+                            "Jan",
+                            139.87
+                        ],
+                        [
+                            "Feb",
+                            60.61
+                        ],
+                        [
+                            "Mar",
+                            71.49
+                        ],
+                        [
+                            "Apr",
+                            60.61
+                        ],
+                        [
+                            "May",
+                            66.83
+                        ],
+                        [
+                            "Jun",
+                            63.72
+                        ],
+                        [
+                            "Jul",
+                            61.86
+                        ]
+                    ],
+                    "grant": 15
+                },
+                {
+                    "name": "ELPEDISON ECONOMY",
+                    "base": 0.0,
+                    "unit_value": 179.0,
+                    "contract_value": 55.64,
+                    "perc": 57.02,
+                    "past":
+                    [
+                        [
+                            "Feb",
+                            45.07
+                        ],
+                        [
+                            "Mar",
+                            45.07
+                        ],
+                        [
+                            "Apr",
+                            38.85
+                        ],
+                        [
+                            "May",
+                            38.85
+                        ],
+                        [
+                            "Jun",
+                            35.43
+                        ],
+                        [
+                            "Jul",
+                            55.64
+                        ]
+                    ],
+                    "grant": 15
+                },
+                {
+                    "name": "ELPEDISON GREEN ECONOMY",
+                    "base": 3.5,
+                    "unit_value": 111.0,
+                    "contract_value": 38.0,
+                    "perc": 0,
+                    "past":
+                    [
+                        [
+                            "Jul",
+                            38.0
+                        ]
+                    ],
+                    "grant": 15
+                },
+                {
+                    "name": "Elpedison Συνέπεια Day",
+                    "base": 5.0,
+                    "unit_value": 231.7,
+                    "contract_value": 77.02,
+                    "perc": -2.36,
+                    "past":
+                    [
+                        [
+                            "Jan",
+                            155.04
+                        ],
+                        [
+                            "Feb",
+                            75.78
+                        ],
+                        [
+                            "Mar",
+                            86.66
+                        ],
+                        [
+                            "Apr",
+                            75.78
+                        ],
+                        [
+                            "May",
+                            82.09
+                        ],
+                        [
+                            "Jun",
+                            78.88
+                        ],
+                        [
+                            "Jul",
+                            77.02
+                        ]
+                    ],
+                    "grant": 15
+                },
+                {
+                    "name": "ElectricityHome Protect Day",
+                    "base": 1.0,
+                    "unit_value": 199.0,
+                    "contract_value": 62.86,
+                    "perc": -16.06,
+                    "past":
+                    [
+                        [
+                            "Jan",
+                            140.87
+                        ],
+                        [
+                            "Feb",
+                            61.61
+                        ],
+                        [
+                            "Mar",
+                            72.49
+                        ],
+                        [
+                            "May",
+                            67.83
+                        ],
+                        [
+                            "Jun",
+                            74.88
+                        ],
+                        [
+                            "Jul",
+                            62.86
+                        ]
+                    ],
+                    "grant": 15
+                },
+                {
+                    "name": "Elpedison DriveGreen Electricity",
+                    "base": 0.0,
+                    "unit_value": 199.0,
+                    "contract_value": 61.86,
+                    "perc": -2.93,
+                    "past":
+                    [
+                        [
+                            "Apr",
+                            60.61
+                        ],
+                        [
+                            "May",
+                            66.83
+                        ],
+                        [
+                            "Jun",
+                            63.72
+                        ],
+                        [
+                            "Jul",
+                            61.86
+                        ]
+                    ],
+                    "grant": 15
+                }
+            ]
+        },
+        "Elin Energy":
+        {
+            "name": "elin",
+            "logo": "elin.png",
+            "contracts":
+            [
+                {
+                    "name": "Power On! Home Comfort",
+                    "base": 4.9,
+                    "unit_value": 129.0,
+                    "contract_value": 45.0,
+                    "perc": 0.0,
+                    "past":
+                    [
+                        [
+                            "Jan",
+                            121.46
+                        ],
+                        [
+                            "Feb",
+                            62.4
+                        ],
+                        [
+                            "Mar",
+                            61.78
+                        ],
+                        [
+                            "Apr",
+                            50.9
+                        ],
+                        [
+                            "May",
+                            48.11
+                        ],
+                        [
+                            "Jun",
+                            45.0
+                        ],
+                        [
+                            "Jul",
+                            45.0
+                        ]
+                    ],
+                    "grant": 15
+                },
+                {
+                    "name": "Smart! Home ",
+                    "base": 0.0,
+                    "unit_value": 165.0,
+                    "contract_value": 51.29,
+                    "perc": 0.0,
+                    "past":
+                    [
+                        [
+                            "Jan",
+                            128.06
+                        ],
+                        [
+                            "Feb",
+                            68.38
+                        ],
+                        [
+                            "Mar",
+                            67.45
+                        ],
+                        [
+                            "Apr",
+                            56.88
+                        ],
+                        [
+                            "May",
+                            57.5
+                        ],
+                        [
+                            "Jun",
+                            51.29
+                        ],
+                        [
+                            "Jul",
+                            51.29
+                        ]
+                    ],
+                    "grant": 15
+                },
+                {
+                    "name": "Power On! Home",
+                    "base": 1.0,
+                    "unit_value": 150.0,
+                    "contract_value": 47.62,
+                    "perc": 0.0,
+                    "past":
+                    [
+                        [
+                            "Jan",
+                            123.78
+                        ],
+                        [
+                            "Feb",
+                            64.72
+                        ],
+                        [
+                            "Mar",
+                            64.1
+                        ],
+                        [
+                            "Apr",
+                            53.22
+                        ],
+                        [
+                            "May",
+                            52.29
+                        ],
+                        [
+                            "Jun",
+                            47.62
+                        ],
+                        [
+                            "Jul",
+                            47.62
+                        ]
+                    ],
+                    "grant": 15
+                },
+                {
+                    "name": "Power On! Home Bonus (+)",
+                    "base": 5.0,
+                    "unit_value": 165.0,
+                    "contract_value": 56.29,
+                    "perc": 0.0,
+                    "past":
+                    [
+                        [
+                            "Jun",
+                            56.29
+                        ],
+                        [
+                            "Jul",
+                            56.29
+                        ]
+                    ],
+                    "grant": 15
+                },
+                {
+                    "name": "Οικιακό Νυχτερινό 365, Οικιακό Νυχτερινό 365 Εξοχικό, On!24/7, Next! Οικιακό, Next! Οικιακό Νυχτερινό ",
+                    "base": 5.0,
+                    "unit_value": 139.0,
+                    "contract_value": 48.21,
+                    "perc": 0.0,
+                    "past":
+                    [
+                        [
+                            "Jun",
+                            48.21
+                        ],
+                        [
+                            "Jul",
+                            48.21
+                        ]
+                    ],
+                    "grant": 15
+                },
+                {
+                    "name": "Power On! Home Bonus (-)",
+                    "base": -1.0,
+                    "unit_value": 195.0,
+                    "contract_value": 59.61,
+                    "perc": -3.25,
+                    "past":
+                    [
+                        [
+                            "Jun",
+                            61.61
+                        ],
+                        [
+                            "Jul",
+                            59.61
+                        ]
+                    ],
+                    "grant": 15
+                }
+            ]
+        },
+        "NRG":
+        {
+            "name": "nrg",
+            "logo": "nrg.png",
+            "contracts":
+            [
+                {
+                    "name": "nrg prime",
+                    "base": 5.0,
+                    "unit_value": 175.0,
+                    "contract_value": 59.4,
+                    "perc": 5.52,
+                    "past":
+                    [
+                        [
+                            "Jan",
+                            141.77
+                        ],
+                        [
+                            "Feb",
+                            73.38
+                        ],
+                        [
+                            "Mar",
+                            79.6
+                        ],
+                        [
+                            "Apr",
+                            62.5
+                        ],
+                        [
+                            "Jun",
+                            56.29
+                        ],
+                        [
+                            "Jul",
+                            59.4
+                        ]
+                    ],
+                    "grant": 15
+                },
+                {
+                    "name": "nrg on time",
+                    "base": 4.8,
+                    "unit_value": 132.0,
+                    "contract_value": 45.83,
+                    "perc": 7.28,
+                    "past":
+                    [
+                        [
+                            "Jan",
+                            154.62
+                        ],
+                        [
+                            "Feb",
+                            74.74
+                        ],
+                        [
+                            "Mar",
+                            66.66
+                        ],
+                        [
+                            "Apr",
+                            55.78
+                        ],
+                        [
+                            "Jun",
+                            42.72
+                        ],
+                        [
+                            "Jul",
+                            45.83
+                        ]
+                    ],
+                    "grant": 15
+                },
+                {
+                    "name": "nrg adapt",
+                    "base": 4.8,
+                    "unit_value": 182.0,
+                    "contract_value": 61.37,
+                    "perc": 5.33,
+                    "past":
+                    [
+                        [
+                            "Jan",
+                            150.89
+                        ],
+                        [
+                            "Feb",
+                            84.37
+                        ],
+                        [
+                            "Mar",
+                            85.3
+                        ],
+                        [
+                            "Apr",
+                            66.66
+                        ],
+                        [
+                            "Jun",
+                            58.26
+                        ],
+                        [
+                            "Jul",
+                            61.37
+                        ]
+                    ],
+                    "grant": 15
+                },
+                {
+                    "name": "nrg simple",
+                    "base": 5.0,
+                    "unit_value": 99.0,
+                    "contract_value": 35.77,
+                    "perc": -6.5,
+                    "past":
+                    [
+                        [
+                            "Jun",
+                            38.26
+                        ],
+                        [
+                            "Jul",
+                            35.77
+                        ]
+                    ],
+                    "grant": 15
+                },
+                {
+                    "name": "nrg basic",
+                    "base": 4.8,
+                    "unit_value": 182.0,
+                    "contract_value": 61.37,
+                    "perc": 5.33,
+                    "past":
+                    [
+                        [
+                            "Jun",
+                            58.26
+                        ],
+                        [
+                            "Jul",
+                            61.37
+                        ]
+                    ],
+                    "grant": 15
+                }
+            ]
+        },
+        "PROTERGIA":
+        {
+            "name": "protergia",
+            "logo": "protergia.png",
+            "contracts":
+            [
+                {
+                    "name": "Protergia Οικιακό Plus",
+                    "base": 1.0,
+                    "unit_value": 202.7,
+                    "contract_value": 64.01,
+                    "perc": 0.0,
+                    "past":
+                    [
+                        [
+                            "Jan",
+                            145.79
+                        ],
+                        [
+                            "Feb",
+                            83.62
+                        ],
+                        [
+                            "Mar",
+                            83.62
+                        ],
+                        [
+                            "Apr",
+                            68.08
+                        ],
+                        [
+                            "May",
+                            68.08
+                        ],
+                        [
+                            "Jun",
+                            64.01
+                        ],
+                        [
+                            "Jul",
+                            64.01
+                        ]
+                    ],
+                    "grant": 15
+                },
+                {
+                    "name": "Protergia Οικιακό - MVP Plus Green",
+                    "base": 5.0,
+                    "unit_value": 184.9,
+                    "contract_value": 62.47,
+                    "perc": 0.0,
+                    "past":
+                    [
+                        [
+                            "Jun",
+                            62.47
+                        ],
+                        [
+                            "Jul",
+                            62.47
+                        ]
+                    ],
+                    "grant": 15
+                },
+                {
+                    "name": "Protergia Οικιακό - MVP Reward D4U",
+                    "base": 5.0,
+                    "unit_value": 186.7,
+                    "contract_value": 63.03,
+                    "perc": 0.0,
+                    "past":
+                    [
+                        [
+                            "Jun",
+                            63.03
+                        ],
+                        [
+                            "Jul",
+                            63.03
+                        ]
+                    ],
+                    "grant": 15
+                },
+                {
+                    "name": "Protergia Οικιακό - Spitimou",
+                    "base": 5.0,
+                    "unit_value": 140.9,
+                    "contract_value": 48.8,
+                    "perc": 0.0,
+                    "past":
+                    [
+                        [
+                            "Jun",
+                            48.8
+                        ],
+                        [
+                            "Jul",
+                            48.8
+                        ]
+                    ],
+                    "grant": 15
+                },
+                {
+                    "name": "Protergia Οικιακό MVP Plus Eξοχικό",
+                    "base": 5.0,
+                    "unit_value": 184.9,
+                    "contract_value": 62.47,
+                    "perc": 0.0,
+                    "past":
+                    [
+                        [
+                            "Apr",
+                            66.54
+                        ],
+                        [
+                            "May",
+                            66.54
+                        ],
+                        [
+                            "Jun",
+                            62.47
+                        ],
+                        [
+                            "Jul",
+                            62.47
+                        ]
+                    ],
+                    "grant": 15
+                },
+                {
+                    "name": "Protergia Οικιακό Charge Home MVP",
+                    "base": 5.0,
+                    "unit_value": 184.9,
+                    "contract_value": 62.47,
+                    "perc": 0.0,
+                    "past":
+                    [
+                        [
+                            "Jun",
+                            62.47
+                        ],
+                        [
+                            "Jul",
+                            62.47
+                        ]
+                    ],
+                    "grant": 15
+                },
+                {
+                    "name": "Protergia Energy Save",
+                    "base": 5.0,
+                    "unit_value": 184.9,
+                    "contract_value": 62.47,
+                    "perc": 0.0,
+                    "past":
+                    [
+                        [
+                            "Jan",
+                            144.25
+                        ],
+                        [
+                            "Feb",
+                            82.09
+                        ],
+                        [
+                            "Mar",
+                            82.09
+                        ],
+                        [
+                            "Apr",
+                            66.54
+                        ],
+                        [
+                            "May",
+                            66.54
+                        ],
+                        [
+                            "Jun",
+                            62.47
+                        ],
+                        [
+                            "Jul",
+                            62.47
+                        ]
+                    ],
+                    "grant": 15
+                },
+                {
+                    "name": "Protergia Οικιακό Value",
+                    "base": 3.0,
+                    "unit_value": 111.5,
+                    "contract_value": 37.66,
+                    "perc": -11.02,
+                    "past":
+                    [
+                        [
+                            "Apr",
+                            46.52
+                        ],
+                        [
+                            "May",
+                            46.39
+                        ],
+                        [
+                            "Jun",
+                            42.32
+                        ],
+                        [
+                            "Jul",
+                            37.66
+                        ]
+                    ],
+                    "grant": 15
+                },
+                {
+                    "name": "Protergia Οικιακό MVP Reward",
+                    "base": 5.0,
+                    "unit_value": 186.7,
+                    "contract_value": 63.03,
+                    "perc": 0.0,
+                    "past":
+                    [
+                        [
+                            "Jan",
+                            154.2
+                        ],
+                        [
+                            "Feb",
+                            82.09
+                        ],
+                        [
+                            "Mar",
+                            82.09
+                        ],
+                        [
+                            "Apr",
+                            48.45
+                        ],
+                        [
+                            "May",
+                            67.1
+                        ],
+                        [
+                            "Jun",
+                            63.03
+                        ],
+                        [
+                            "Jul",
+                            63.03
+                        ]
+                    ],
+                    "grant": 15
+                }
+            ]
+        },
+        "VOLTERRA":
+        {
+            "name": "volterra",
+            "logo": "volterra.png",
+            "contracts":
+            [
+                {
+                    "name": "FORWARD HOME",
+                    "base": 4.5,
+                    "unit_value": 139.8,
+                    "contract_value": 47.95,
+                    "perc": 14.89,
+                    "past":
+                    [
+                        [
+                            "May",
+                            62.94
+                        ],
+                        [
+                            "Jun",
+                            41.74
+                        ],
+                        [
+                            "Jul",
+                            47.95
+                        ]
+                    ],
+                    "grant": 15
+                }
+            ]
+        },
+        "VOLTON":
+        {
+            "name": "volton",
+            "logo": "volton.png",
+            "contracts":
+            [
+                {
+                    "name": "Volton Home",
+                    "base": 5.0,
+                    "unit_value": 156.0,
+                    "contract_value": 53.49,
+                    "perc": 0.0,
+                    "past":
+                    [
+                        [
+                            "Jan",
+                            151.9
+                        ],
+                        [
+                            "Feb",
+                            68.47
+                        ],
+                        [
+                            "Mar",
+                            66.86
+                        ],
+                        [
+                            "Apr",
+                            58.65
+                        ],
+                        [
+                            "May",
+                            56.6
+                        ],
+                        [
+                            "Jun",
+                            53.49
+                        ],
+                        [
+                            "Jul",
+                            53.49
+                        ]
+                    ],
+                    "grant": 15
+                },
+                {
+                    "name": "Volton Home Plus",
+                    "base": 5.0,
+                    "unit_value": 156.0,
+                    "contract_value": 53.49,
+                    "perc": 0.0,
+                    "past":
+                    [
+                        [
+                            "Feb",
+                            68.47
+                        ],
+                        [
+                            "Mar",
+                            66.86
+                        ],
+                        [
+                            "Apr",
+                            58.65
+                        ],
+                        [
+                            "May",
+                            56.6
+                        ],
+                        [
+                            "Jun",
+                            53.49
+                        ],
+                        [
+                            "Jul",
+                            53.49
+                        ]
+                    ],
+                    "grant": 15
+                },
+                {
+                    "name": "VOLTON ENERGY CONTROL HOME",
+                    "base": 3.5,
+                    "unit_value": 126.0,
+                    "contract_value": 42.66,
+                    "perc": -4.19,
+                    "past":
+                    [
+                        [
+                            "May",
+                            44.53
+                        ],
+                        [
+                            "Jun",
+                            44.53
+                        ],
+                        [
+                            "Jul",
+                            42.66
+                        ]
+                    ],
+                    "grant": 15
+                }
+            ]
+        },
+        "WATT & VOLT":
+        {
+            "name": "wattandvolt",
+            "logo": "wattandvolt.png",
+            "contracts":
+            [
+                {
+                    "name": "ZERO +",
+                    "base": 0.0,
+                    "unit_value": 196.9,
+                    "contract_value": 61.2,
+                    "perc": 1.31,
+                    "past":
+                    [
+                        [
+                            "Jan",
+                            142.67
+                        ],
+                        [
+                            "Feb",
+                            76.15
+                        ],
+                        [
+                            "Mar",
+                            76.15
+                        ],
+                        [
+                            "Apr",
+                            62.01
+                        ],
+                        [
+                            "May",
+                            64.96
+                        ],
+                        [
+                            "Jun",
+                            60.41
+                        ],
+                        [
+                            "Jul",
+                            61.2
+                        ]
+                    ],
+                    "grant": 15
+                },
+                {
+                    "name": "Value",
+                    "base": 3.0,
+                    "unit_value": 111.5,
+                    "contract_value": 37.66,
+                    "perc": -11.02,
+                    "past":
+                    [
+                        [
+                            "Apr",
+                            46.52
+                        ],
+                        [
+                            "May",
+                            46.39
+                        ],
+                        [
+                            "Jun",
+                            42.32
+                        ],
+                        [
+                            "Jul",
+                            37.66
+                        ]
+                    ],
+                    "grant": 15
+                },
+                {
+                    "name": "Reward",
+                    "base": 5.0,
+                    "unit_value": 186.7,
+                    "contract_value": 63.03,
+                    "perc": 0.0,
+                    "past":
+                    [
+                        [
+                            "Jun",
+                            63.03
+                        ],
+                        [
+                            "Jul",
+                            63.03
+                        ]
+                    ],
+                    "grant": 15
+                }
+            ]
+        },
+        "We Energy":
+        {
+            "name": "weenergy",
+            "logo": "weenergy.png",
+            "contracts":
+            [
+                {
+                    "name": "WE GREEN HOME 1Y",
+                    "base": 3.75,
+                    "unit_value": 145.0,
+                    "contract_value": 48.82,
+                    "perc": 0.0,
+                    "past":
+                    [
+                        [
+                            "Jan",
+                            134.3
+                        ],
+                        [
+                            "Feb",
+                            78.35
+                        ],
+                        [
+                            "Mar",
+                            78.35
+                        ],
+                        [
+                            "May",
+                            65.92
+                        ],
+                        [
+                            "Jun",
+                            48.82
+                        ],
+                        [
+                            "Jul",
+                            48.82
+                        ]
+                    ],
+                    "grant": 15
+                },
+                {
+                    "name": "WE GREEN HOME 2Y",
+                    "base": 2.75,
+                    "unit_value": 145.0,
+                    "contract_value": 47.82,
+                    "perc": 0.0,
+                    "past":
+                    [
+                        [
+                            "May",
+                            64.92
+                        ],
+                        [
+                            "Jun",
+                            47.82
+                        ],
+                        [
+                            "Jul",
+                            47.82
+                        ]
+                    ],
+                    "grant": 15
+                },
+                {
+                    "name": "WE Home",
+                    "base": 4.0,
+                    "unit_value": 165.0,
+                    "contract_value": 55.29,
+                    "perc": 0.0,
+                    "past":
+                    [
+                        [
+                            "Jan",
+                            143.87
+                        ],
+                        [
+                            "Feb",
+                            84.82
+                        ],
+                        [
+                            "Mar",
+                            84.82
+                        ],
+                        [
+                            "May",
+                            72.38
+                        ],
+                        [
+                            "Jun",
+                            55.29
+                        ],
+                        [
+                            "Jul",
+                            55.29
+                        ]
+                    ],
+                    "grant": 15
+                },
+                {
+                    "name": "WE BLUE HOME",
+                    "base": 2.75,
+                    "unit_value": 145.0,
+                    "contract_value": 47.82,
+                    "perc": 0.0,
+                    "past":
+                    [
+                        [
+                            "Jan",
+                            133.3
+                        ],
+                        [
+                            "Feb",
+                            77.35
+                        ],
+                        [
+                            "Mar",
+                            77.35
+                        ],
+                        [
+                            "May",
+                            64.92
+                        ],
+                        [
+                            "Jun",
+                            47.82
+                        ],
+                        [
+                            "Jul",
+                            47.82
+                        ]
+                    ],
+                    "grant": 15
+                }
+            ]
+        },
+        "ΔΕΗ":
+        {
+            "name": "deh",
+            "logo": "deh.png",
+            "contracts":
+            [
+                {
+                    "name": "myHome Open",
+                    "base": 5.0,
+                    "unit_value": 161.0,
+                    "contract_value": 55.04,
+                    "perc": 0.0,
+                    "past":
+                    [
+                        [
+                            "Jan",
+                            158.86
+                        ],
+                        [
+                            "Feb",
+                            65.61
+                        ],
+                        [
+                            "Mar",
+                            64.37
+                        ],
+                        [
+                            "Apr",
+                            58.15
+                        ],
+                        [
+                            "May",
+                            56.29
+                        ],
+                        [
+                            "Jun",
+                            55.04
+                        ],
+                        [
+                            "Jul",
+                            55.04
+                        ]
+                    ],
+                    "grant": 15
+                },
+                {
+                    "name": "myHome 4All",
+                    "base": 3.5,
+                    "unit_value": 150.0,
+                    "contract_value": 50.12,
+                    "perc": 0.0,
+                    "past":
+                    [
+                        [
+                            "May",
+                            51.37
+                        ],
+                        [
+                            "Jun",
+                            50.12
+                        ],
+                        [
+                            "Jul",
+                            50.12
+                        ]
+                    ],
+                    "grant": 15
+                },
+                {
+                    "name": "Γ1",
+                    "base": 3.5,
+                    "unit_value": 155.0,
+                    "contract_value": 51.68,
+                    "perc": 0.0,
+                    "past":
+                    [
+                        [
+                            "Jan",
+                            155.5
+                        ],
+                        [
+                            "Feb",
+                            65.36
+                        ],
+                        [
+                            "Mar",
+                            64.11
+                        ],
+                        [
+                            "Apr",
+                            54.79
+                        ],
+                        [
+                            "May",
+                            52.92
+                        ],
+                        [
+                            "Jun",
+                            51.68
+                        ],
+                        [
+                            "Jul",
+                            51.68
+                        ]
+                    ],
+                    "grant": 15
+                }
+            ]
+        },
+        "ΖΕΝΙΘ":
+        {
+            "name": "zenith",
+            "logo": "zenith.png",
+            "contracts":
+            [
+                {
+                    "name": "Power Home Day & Night ",
+                    "base": 5.0,
+                    "unit_value": 99.0,
+                    "contract_value": 35.77,
+                    "perc": 0.0,
+                    "past":
+                    [
+                        [
+                            "Jun",
+                            35.77
+                        ],
+                        [
+                            "Jul",
+                            35.77
+                        ]
+                    ],
+                    "grant": 15
+                },
+                {
+                    "name": "My Pet My Home",
+                    "base": 5.0,
+                    "unit_value": 160.0,
+                    "contract_value": 54.73,
+                    "perc": -6.88,
+                    "past":
+                    [
+                        [
+                            "Mar",
+                            64.8
+                        ],
+                        [
+                            "Apr",
+                            59.83
+                        ],
+                        [
+                            "May",
+                            63.13
+                        ],
+                        [
+                            "Jun",
+                            58.77
+                        ],
+                        [
+                            "Jul",
+                            54.73
+                        ]
+                    ],
+                    "grant": 15
+                }
+            ]
+        },
+        "ΗΡΩΝ":
+        {
+            "name": "hrwn",
+            "logo": "hrwn.png",
+            "contracts":
+            [
+                {
+                    "name": "ΗΡΩΝ ecoGENEROUS",
+                    "base": 4.0,
+                    "unit_value": 179.0,
+                    "contract_value": 59.64,
+                    "perc": 0.0,
+                    "past":
+                    [
+                        [
+                            "Jun",
+                            59.64
+                        ],
+                        [
+                            "Jul",
+                            59.64
+                        ]
+                    ],
+                    "grant": 15
+                },
+                {
+                    "name": "ΗΡΩΝ Double Generous Home",
+                    "base": 3.0,
+                    "unit_value": 180.0,
+                    "contract_value": 58.95,
+                    "perc": 0.0,
+                    "past":
+                    [
+                        [
+                            "Jan",
+                            142.87
+                        ],
+                        [
+                            "Feb",
+                            83.5
+                        ],
+                        [
+                            "Mar",
+                            82.57
+                        ],
+                        [
+                            "Apr",
+                            63.92
+                        ],
+                        [
+                            "May",
+                            63.3
+                        ],
+                        [
+                            "Jun",
+                            58.95
+                        ],
+                        [
+                            "Jul",
+                            58.95
+                        ]
+                    ],
+                    "grant": 15
+                },
+                {
+                    "name": "ΗΡΩΝ Simply Generous Home",
+                    "base": 3.5,
+                    "unit_value": 95.0,
+                    "contract_value": 33.03,
+                    "perc": -22.02,
+                    "past":
+                    [
+                        [
+                            "May",
+                            52.61
+                        ],
+                        [
+                            "Jun",
+                            42.35
+                        ],
+                        [
+                            "Jul",
+                            33.03
+                        ]
+                    ],
+                    "grant": 15
+                },
+                {
+                    "name": "ΗΡΩΝ Solar Generous",
+                    "base": 5.0,
+                    "unit_value": 153.0,
+                    "contract_value": 52.56,
+                    "perc": 0.0,
+                    "past":
+                    [
+                        [
+                            "Jan",
+                            142.87
+                        ],
+                        [
+                            "Feb",
+                            55.84
+                        ],
+                        [
+                            "Mar",
+                            55.84
+                        ],
+                        [
+                            "Apr",
+                            54.29
+                        ],
+                        [
+                            "May",
+                            57.22
+                        ],
+                        [
+                            "Jun",
+                            52.56
+                        ],
+                        [
+                            "Jul",
+                            52.56
+                        ]
+                    ],
+                    "grant": 15
+                },
+                {
+                    "name": "ΗΡΩΝ GENEROUS Home",
+                    "base": 3.0,
+                    "unit_value": 179.0,
+                    "contract_value": 58.64,
+                    "perc": 0.0,
+                    "past":
+                    [
+                        [
+                            "Jan",
+                            142.87
+                        ],
+                        [
+                            "Feb",
+                            83.5
+                        ],
+                        [
+                            "Mar",
+                            82.57
+                        ],
+                        [
+                            "Apr",
+                            63.92
+                        ],
+                        [
+                            "May",
+                            63.3
+                        ],
+                        [
+                            "Jun",
+                            58.64
+                        ],
+                        [
+                            "Jul",
+                            58.64
+                        ]
+                    ],
+                    "grant": 15
+                }
+            ]
+        },
+        "ΦΥΣΙΚΟ ΑΕΡΙΟ ΕΛΛΗΝΙΚΗ ΕΤΑΙΡΙΑ ΕΝΕΡΓΕΙΑΣ":
+        {
+            "name": "fysikoaerio",
+            "logo": "fysikoaerio.png",
+            "contracts":
+            [
+                {
+                    "name": "Ρεύμα Οικιακό MAXI_Free Extra +",
+                    "base": 5.0,
+                    "unit_value": 140.0,
+                    "contract_value": 48.52,
+                    "perc": 0,
+                    "past":
+                    [
+                        [
+                            "Jul",
+                            48.52
+                        ]
+                    ],
+                    "grant": 15
+                },
+                {
+                    "name": "Ρεύμα Οικιακό MAXI Free Super +",
+                    "base": 5.0,
+                    "unit_value": 140.0,
+                    "contract_value": 48.52,
+                    "perc": 0.0,
+                    "past":
+                    [
+                        [
+                            "May",
+                            56.29
+                        ],
+                        [
+                            "Jun",
+                            48.52
+                        ],
+                        [
+                            "Jul",
+                            48.52
+                        ]
+                    ],
+                    "grant": 15
+                },
+                {
+                    "name": "Ρεύμα Οικιακό MAXI Free ",
+                    "base": 5.0,
+                    "unit_value": 123.0,
+                    "contract_value": 43.23,
+                    "perc": -24.03,
+                    "past":
+                    [
+                        [
+                            "Jan",
+                            147.98
+                        ],
+                        [
+                            "Feb",
+                            89.55
+                        ],
+                        [
+                            "Mar",
+                            89.55
+                        ],
+                        [
+                            "Apr",
+                            60.02
+                        ],
+                        [
+                            "May",
+                            59.71
+                        ],
+                        [
+                            "Jun",
+                            56.91
+                        ],
+                        [
+                            "Jul",
+                            43.23
+                        ]
+                    ],
+                    "grant": 15
+                },
+                {
+                    "name": "Ρεύμα Οικιακό MAXI Free +",
+                    "base": 5.0,
+                    "unit_value": 167.0,
+                    "contract_value": 56.91,
+                    "perc": 31.64,
+                    "past":
+                    [
+                        [
+                            "Jan",
+                            153.27
+                        ],
+                        [
+                            "Feb",
+                            83.02
+                        ],
+                        [
+                            "Mar",
+                            81.78
+                        ],
+                        [
+                            "Apr",
+                            48.21
+                        ],
+                        [
+                            "May",
+                            48.21
+                        ],
+                        [
+                            "Jun",
+                            43.23
+                        ],
+                        [
+                            "Jul",
+                            56.91
+                        ]
+                    ],
+                    "grant": 15
+                },
+                {
+                    "name": "Ρεύμα Οικιακό MAXI Free Basic",
+                    "base": 5.0,
+                    "unit_value": 155.0,
+                    "contract_value": 53.18,
+                    "perc": 0.0,
+                    "past":
+                    [
+                        [
+                            "Jan",
+                            146.43
+                        ],
+                        [
+                            "Feb",
+                            85.82
+                        ],
+                        [
+                            "Mar",
+                            85.82
+                        ],
+                        [
+                            "Apr",
+                            56.29
+                        ],
+                        [
+                            "May",
+                            55.98
+                        ],
+                        [
+                            "Jun",
+                            53.18
+                        ],
+                        [
+                            "Jul",
+                            53.18
+                        ]
+                    ],
+                    "grant": 15
+                }
+            ]
+        }
+    }
+}
