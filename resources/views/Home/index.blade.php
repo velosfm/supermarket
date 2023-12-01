@@ -6,7 +6,7 @@
             <div class="card p-4 mt-3">
                 <h3 class="heading mt-5 text-center">Γειά σας ! Τι ψάχνουμε;</h3>
                 <div class="justify-content-center px-5">
-                    <form class="main-saerch" method="GET" action="/main_results" name="search" id="search">
+                    <form class="main-saerch" method="GET" action="/results" name="search" id="search">
                          <div class="row">
                         <div class="col-8 ">
                             <input type="text" class="form-control" name="search" id="search" placeholder="Πληκτρολογείστε εδώ το προιόν">

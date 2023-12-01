@@ -43,5 +43,10 @@ class HomeController extends Controller
         return view('Home.faq');
     }
 
+    public function ab() 
+    {
+        return view('Home.ab');
+    }
+
 
 }

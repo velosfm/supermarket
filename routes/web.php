@@ -19,7 +19,9 @@ use App\Http\Controllers\SearchController;
 
 Route::get('/', [HomeController::class, 'index']);
 Route::get('/main_results', [SearchController::class, 'main_results']);
+Route::get('/results', [SearchController::class, 'results']);
 Route::get('/kalathi', [HomeController::class, 'kalathi']);
 Route::get('/faq', [HomeController::class, 'faq']);
 Route::get('/about', [HomeController::class, 'about']);
 Route::get('/laxanika', [HomeController::class, 'laxanika']);
+Route::get('/ab', [SearchController::class, 'test']);

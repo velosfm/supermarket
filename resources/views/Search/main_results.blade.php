@@ -1,6 +1,6 @@
 @extends('main')
 @section('content')
-<div class="d-grid gap-3 justify-content-center px-5 mb-5">
+<div class="d-grid gap-3 justify-content-center px-5 mb-5 chain">
 <h1>Δείτε τα αποτελέσματα που βρήκαμε για εσάς</h1>
 <h2>  Επιλέξτε αλυσίδα Super Market </h2>
 </div>
@@ -98,17 +98,88 @@
     <iframe class="embed-responsive-item" src="https://eshop.masoutis.gr/categories/index/search?text={{$query}}" style: width="100%" height="100%" allowfullscreen></iframe></div>
   </div>
   <div class="tab-pane fade" id="ex1-tabs-4" role="tabpanel" aria-labelledby="ex1-tabs-4">
-    Προιόντα Μαρκετ ΙΝ
-     <div class="ratio ratio-16x9"><iframe class="embed-responsive-item" src="https://www.market-in.gr/el-gr/ALL?Title={{$query}}" style: width="100%" height="100%" allowfullscreen></iframe></div>
+    <h3 class="heading">Αποτελέσματα από το Ηλεκτρονικό Κατάστημα Market In</h3>
+                 <div class="container">
+                    <div class="row product">
+@foreach($mkin_prods as $product)
+   <div class="col-md-4 ">
+  <div class="card">
+    <div class="ccc">
+      <p class="text-center"><img src="https://www.market-in.gr{{$product->original->image[0]}}" class="imw"></p> 
+<!--                               <div class="overlay">
+        <div class="text">View Details</div>
+      </div> -->
+    </div>
+    <div class="card-body">
+      <h5 class="text-center">{{$product->original->title[0]}}</h5> 
+      @isset($product->original->main_price[0])
+      <p class="text-center">Τιμή: {{$product->original->main_price[0]}}</p>
+      @endisset
+      <p class="text-center">Τιμή: {{$product->original->kil_price[0]}}</p>
+    </div>
+  </div>
+</div>
+ @endforeach 
+</div>
+</div>
   </div>
   <div class="tab-pane fade" id="ex1-tabs-5" role="tabpanel" aria-labelledby="ex1-tabs-5">
-    Προιόντα My Market
-     <div class="ratio ratio-16x9"><iframe class="embed-responsive-item" src="https://www.mymarket.gr/search?query={{$query}}" style: width="100%" height="100%" allowfullscreen></iframe></div>
+    <h3 class="heading">Αποτελέσματα από το Ηλεκτρονικό Κατάστημα MyMarket</h3>
+                 <div class="container">
+                    <div class="row product">
+@foreach($my_prods as $product)
+   <div class="col-md-4 ">
+  <div class="card">
+    <div class="ccc">
+      @isset($product->original->image[0])
+      <p class="text-center"><img src="{{$product->original->image[0]}}" class="imw"></p> 
+      @endisset
+<!--                               <div class="overlay">
+        <div class="text">View Details</div>
+      </div> -->
+    </div>
+    <div class="card-body">
+       @isset($product->original->title[0])
+      <h5 class="text-center">{{$product->original->title[0]}}</h5>
+      @endisset 
+      @isset($product->original->main_price[0])
+      <p class="text-center">Τιμή: {{$product->original->main_price[0]}}</p>
+      @endisset
+      @isset($product->original->kil_price[0])
+      <p class="text-center">Τιμή: {{$product->original->kil_price[0]}}</p>
+      @endisset
+    </div>
+  </div>
+</div>
+ @endforeach 
+</div>
+</div>
   </div>
   <div class="tab-pane fade" id="ex1-tabs-6" role="tabpanel" aria-labelledby="ex1-tabs-6">
-    Προιόντα Σκλαβενίτης
-     <div class="ratio ratio-16x9"><iframe class="embed-responsive-item" src="https://www.sklavenitis.gr/apotelesmata-anazitisis/?Query={{$query}}" style: width="100%" height="100%" allowfullscreen></iframe><
+    <h3 class="heading">Αποτελέσματα από το Ηλεκτρονικό Κατάστημα Σκλαβενίτη</h3>
+                 <div class="container">
+                    <div class="row product">
+@foreach($sk_prods as $product)
+   <div class="col-md-4 ">
+  <div class="card">
+    <div class="ccc">
+      <p class="text-center"><img src="{{$product->original->image[0]}}" class="imw"></p> 
+<!--                               <div class="overlay">
+        <div class="text">View Details</div>
+      </div> -->
+    </div>
+    <div class="card-body">
+      <h5 class="text-center">{{$product->original->title[0]}}</h5> 
+      @isset($product->original->main_price[0])
+      <p class="text-center">Τιμή: {{$product->original->main_price[0]}}</p>
+      @endisset
+      <p class="text-center">Τιμή: {{$product->original->kil_price[0]}}</p>
+    </div>
   </div>
+</div>
+ @endforeach 
+</div>
+</div>
 </div>
 <div
     class="tab-pane fade"
